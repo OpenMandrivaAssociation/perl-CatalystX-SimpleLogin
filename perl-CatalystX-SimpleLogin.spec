@@ -2,14 +2,14 @@
 %define upstream_version 0.18
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.18
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Redirect
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/CatalystX/CatalystX-SimpleLogin-0.18.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/CatalystX/CatalystX-SimpleLogin-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Catalyst::Action::REST)
