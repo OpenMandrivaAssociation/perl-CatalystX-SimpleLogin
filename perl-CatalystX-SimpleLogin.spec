@@ -1,15 +1,15 @@
 %define upstream_name    CatalystX-SimpleLogin
-%define upstream_version 0.14
+%define upstream_version 0.21
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Redirect
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/CatalystX/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/bobtfish/catalystx-simplelogin
+Source0:	https://cpan.metacpan.org/authors/id/A/AB/ABRAXXA/CatalystX-SimpleLogin-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
